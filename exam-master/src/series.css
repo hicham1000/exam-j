@@ -1,0 +1,17 @@
+.panel{
+    background-color: black;}
+    body {
+        background: #141414;
+        color: #ffffff;
+    }
+    
+    .series-> .row {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+
+    .clearbetweensections{
+        padding: 2em;
+        margin: auto;
+    }
+    

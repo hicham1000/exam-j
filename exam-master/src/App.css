@@ -1,0 +1,16 @@
+.searchbox {
+	display: block;
+	width: 50%;
+	padding: 15px;
+	margin:auto;
+	margin-top: 15px;
+	border: none;
+	outline: none;
+	background: none;
+	background-color: #EEE;
+	border-radius: 8px;
+	color: #53565A;
+	font-size: 20px;
+	font-weight: 300;
+	transition: 0.4s ease-out;
+}
