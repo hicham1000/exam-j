@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 import  React,{useState ,useEffect} from 'react';
@@ -13,15 +12,13 @@ function App() {
     }, [])
   return (
   <div>
-    <div>
-        <SearchBox/>
-    </div>
-    <div className='container-fluid'> 
-      <SeriesList series ={datas}/>
-    </div>
-</div>
-  );
+      <div>
+          <SearchBox/>
+      </div>
+      <div className='container-fluid'> 
+        <SeriesList series ={datas}/>
+      </div>
+  </div>
+  );  
 };
-
 export default App;
-

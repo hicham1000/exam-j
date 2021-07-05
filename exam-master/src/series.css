@@ -1,10 +1,10 @@
-.panel{
-    background-color: black;}
+/* .panel{
+    background-color: black;} */
     body {
         background: #141414;
         color: #ffffff;
     }
-    
+
     .series-> .row {
         overflow-x: auto;
         flex-wrap: nowrap;
@@ -14,4 +14,13 @@
         padding: 2em;
         margin: auto;
     }
-    
+    .container{
+        text-align: center;
+    } 
+    .img-fluid{
+    width: 100%;
+    }
+    .text{
+        font-family: verdana, sans-serif;
+        font-size: 1.3em;
+    }

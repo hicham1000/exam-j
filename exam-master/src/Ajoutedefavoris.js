@@ -15,14 +15,24 @@ export default function Ajoutedefavoris ({series,favorit}) {
 		  .then(setFavoris(!favoris))
 	  }
 	  
-	function addFavoris(){
-		console.log(favoris)
-		setFavoris(!favoris)
-	}
+			let favBtnElement = (
+				<button type="button" className="btn btn-danger" onClick={() => addFavoris()}>Ajouter aux favoris</button>)
+			if (favoris === false){
+			favBtnElement = (
+				<button type="button" className="btn btn-danger" onClick={() => addFavoris()}>Ajouter aux favoris</button>
+				)
+			
+			}else{
+			favBtnElement = (
+				<button type="button" className="btn btn-primary
+				" onClick={() => addFavoris()}>Déjà ajouté aux favoris</button>
+			)
+			}
 	
 	return (
-		<div>
-				<button type="button" className="btn btn-danger" onClick={(onButtonClick) => addFavoris()}>ajoute de favoris</button>
-		</div>
-	)	
-	}
+
+		favBtnElement
+	
+	)
+}
+
